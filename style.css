@@ -1,0 +1,66 @@
+html {
+  font-size: 10px;
+  background: url("http://learndrumsforfree.com/sites/default/files/free/392/joey%20kit.PNG") bottom center;
+  background-size: cover;
+}
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+h2
+{
+  color: gray;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+}
+.sound{
+  font-size: 20px;
+}
+
+
+
+.key {
+  border: .4rem solid black;
+  border-radius:50%;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1.5rem .7rem;
+  transition: all .09s ease; // kitni der tk rkhna h effect n except of using set timeout we can use by css
+  width: 10rem;
+  text-align: center;
+  color: Black;
+  background-color: #ffdab9;
+  text-shadow: 0 0 .5rem yellow;
+  margin-top: 230px;
+}
+
+.playing {
+  transform: scale(1.1); // kitni length tk upr aata h
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd{
+  display: block;
+  font-size: 40px;
+}
+
+.sound
+{
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #000000;
+}
+.colorchange
+{
+  color:white;
+}
